@@ -8,16 +8,17 @@
 }
 
 body {
+    font-family: 'Patua One', serif, sans-serif;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(to right, #e9defa 0%, #fbfcdb 100%);
+    background-color: #DFDFDE;
 }
 
 header {
     width: 100%;
     height: 9rem;
     padding: 1rem;
-    background-color: #1a4380;
+    background-color: #006778;
 
     display: flex;
     justify-content: center;
@@ -28,30 +29,70 @@ header img {
     width: auto;
 }
 
-nav {
-    padding: 5px 10px;
+.line {
+    width: 100%;
+
+    border-bottom: 2px solid #fff;
+    display: block;
+}
+
+.nav-area {
+    background: #006778;
+}
+
+.nav-area::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.nav-area ul {
+    margin: 0;
+    list-style: none;
+}
+
+.nav-area > ul > li {
+    float: left;
+    position: relative;
+}
+
+.nav-area ul li a {
     text-decoration: none;
-    background-color: #1a4380;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-nav ul {
-    list-style-type: none;
-
-    display: flex;
-    flex-direction: row;
-}
-
-nav ul li a {
-    padding: 0.25rem;
     color: #fff;
-
-    font-size: 1rem;
+    padding: 15px 20px;
+    display: block;
 }
+
+.nav-area ul li:hover {
+    background: #488c97;
+}
+
+.nav-area ul ul {
+    position: absolute;
+    padding: 0;
+    min-width: 160px;
+    display: none;
+    top: 100%;
+    left: 0;
+}
+
+.nav-area ul li:hover > ul {
+    display: block;
+}
+
+.nav-area ul ul li:hover a{
+    background: #006778;
+}
+
+.nav-area ul ul li {
+    position: relative;
+}
+
+
+
+
+
+
 
 .home .swiper{
     width: 100%;
@@ -71,4 +112,307 @@ nav ul li a {
     border-radius: 20px;
 
     display: block;
+}
+
+
+
+
+
+
+.amenities{
+    background-color: rgb(221, 236, 236);
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.amenities h2{
+    padding: 10px;
+}
+
+.amenities .time-square {
+    background-color: #fbae82;
+
+    height: 500px;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amenities .central-library {
+    background-color: #82b8fb;
+
+    height: 500px;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amenities .ultra-mega {
+    background-color: #fb9082;
+
+    height: 500px;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amenities .stadium {
+    background-color: #82b8fb;
+
+    height: 500px;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amenities .food-street {
+    background-color: #fbae82;
+
+    height: 500px;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amenities .time-square-container {
+    height: 90%;
+    width: 90%;
+
+    background-color: #fbe2d4;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.amenities .central-library-container {
+    height: 90%;
+    width: 90%;
+
+    background-color: #cadff9;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.amenities .ultra-mega-container {
+    height: 90%;
+    width: 90%;
+
+    background-color: #f8ccc6;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.amenities .stadium-container {
+    height: 90%;
+    width: 90%;
+
+    background-color: #c1d9f7;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.amenities .food-street-container {
+    height: 90%;
+    width: 90%;
+
+    background-color: #fad9c6;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.amenities .time-square-container,
+.amenities .central-library-container,
+.amenities .ultra-mega-container,
+.amenities .stadium-container,
+.amenities .food-street-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-container {
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-container h1 {
+    font-size: 3rem;
+    padding: 20px;
+}
+
+.text-container p {
+    font-size: 1.5rem;
+}
+
+.img-container {
+    height: 100%;
+    width: 50%;
+
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+}
+
+.img-container img {
+    height: 100%;
+    width: 100%;
+
+    border-radius: 20px;
+}
+
+
+
+
+
+
+.clg-location {
+    height: auto;
+    width: 100vw;
+    background-color: rgb(221, 236, 236);
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.clg-location h1 {
+    padding: 10px;
+}
+
+.clg-location img{
+    height: 700px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    height: 20.2rem;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #006778;
+
+    align-items: center;
+}
+
+footer .upper-footer {
+    height: 10rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .upper-footer .foot-col-1 img {
+    height: 7rem;
+    width: 6rem;
+}
+
+.foot-col-1,
+.foot-col-2 {
+    height: 80%;
+    padding: 2px;
+
+    border-right: 2px solid #fff;
+    display: block;
+}
+
+footer .line {
+    width: 80%;
+    margin-left: 10%;
+
+    border-bottom: 2px solid #fff;
+    display: block;
+}
+
+footer .lower-footer {
+    height: 10rem;
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .lower-footer .copyright-text,
+footer .lower-footer .location {
+    height: inherit;
+    vertical-align: inherit;
+}
+
+footer .lower-footer .copyright-text {
+    cursor: pointer;
+}
+
+footer .lower-footer .copyright-text p:hover {
+    color: #071e41;
+}
+
+footer .lower-footer .location a {
+    color: #fff;
+}
+
+footer .lower-footer .location a:hover {
+    color: #071e41;
+}
+
+footer .lower-footer .copyright-text {
+    padding-top: 4rem;
+}
+
+footer .lower-footer .copyright-text {
+    margin-left: 2rem;
+}
+
+footer .lower-footer .location {
+    margin-right: 2rem;
+    padding-top: 4rem;
+
+    display: flex;
+    flex-direction: column;
+
 }

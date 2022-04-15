@@ -2,7 +2,7 @@ var loader = document.getElementById("preloader");
 
 setTimeout(() => {
     loader.style.display = "none";
-}, 3000);
+}, 2000);
 
 var title1 = "NATIONAL INSTITUTE OF TECHNOLOGY, WARANGAL";
 var title2 = "A PLACE OF CULTURAL DIVERSITY ";
@@ -51,4 +51,4 @@ function animator(title, pos) {
 }
 setTimeout(() => {
     animator(title1, true);    
-}, 4000);
+}, 3000);

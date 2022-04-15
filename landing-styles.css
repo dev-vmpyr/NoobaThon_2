@@ -18,6 +18,8 @@ a{
     text-decoration: none;
 }
 
+
+
 header {
     width: 100%;
     height: 9rem;
@@ -98,26 +100,36 @@ header img {
 
 
 
-.home .swiper{
+.swiper{
+    overflow-y: visible;
+    overflow-x: hidden;
+    margin:5vw 0%;
     width: 100%;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    height: 30vw;
+    min-height: 100px;
+    position: relative;
   }
 
-.home .swiper-slide{
-    width: 30rem;
-    height: 30rem;
+.swiper-slide{
+    position:absolute;
+    width:27vw;
+    height:20vw;
+    min-width: 250px;
+    min-height: 200px;
+    left:50%;
+    top:5vw;
+    transition-duration: 0.3s;
+    transition-property: transform;
 }
 
-.home .swiper-slide img{
-    width: 100%;
-    height: 100%;
 
+
+.swiper-slide > img{
+    width:100%;
+    height:100%;
     border-radius: 20px;
-
-    display: block;
+    object-fit: fill;
 }
-
 
 
 .notices{

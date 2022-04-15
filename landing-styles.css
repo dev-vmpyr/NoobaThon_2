@@ -14,6 +14,10 @@ body {
     background-color: #DFDFDE;
 }
 
+a{
+    text-decoration: none;
+}
+
 header {
     width: 100%;
     height: 9rem;
@@ -114,6 +118,58 @@ header img {
     display: block;
 }
 
+
+
+.notices{
+    height: auto;
+    width: 100%;
+
+    background-color: #d2ceca;
+    text-align: center;
+}
+
+.notices h1{
+    padding-top: 20px;
+}
+
+.information{
+    height: 300px;
+    width: 100%;
+
+    background-color: #d2ceca;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.announcements,
+.workshops {
+    height: 200px;
+    width: 400px;
+
+    background-color: #518f89;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    color: #fff;
+
+    box-shadow: 5px 5px 20px #000;
+}
+
+.announcements:hover,
+.workshops:hover {
+    height: 220px;
+    width: 440px;
+}
 
 
 
@@ -334,7 +390,7 @@ header img {
 
 
 footer {
-    height: 20.2rem;
+    height: 30rem;
     font-size: 14px;
     color: #ffffff;
     background-color: #006778;
@@ -343,17 +399,12 @@ footer {
 }
 
 footer .upper-footer {
-    height: 10rem;
+    height: 20rem;
 
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-}
-
-footer .upper-footer .foot-col-1 img {
-    height: 7rem;
-    width: 6rem;
 }
 
 .foot-col-1,
@@ -365,9 +416,56 @@ footer .upper-footer .foot-col-1 img {
     display: block;
 }
 
+footer .upper-footer .foot-col-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer .upper-footer .foot-col-1 img {
+    height: auto;
+    width: auto;
+    margin-right: 15px;
+}
+
+footer .upper-footer .foot-col-1 p{
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+footer .upper-footer .foot-col-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+footer .upper-footer .foot-col-2-1,
+footer .upper-footer .foot-col-2-2,
+footer .upper-footer .foot-col-2-3{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+footer .upper-footer .foot-col-2-1 a,
+footer .upper-footer .foot-col-2-2 a,
+footer .upper-footer .foot-col-2-3 a{
+    font-size: 1rem;
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer .upper-footer .foot-col-3{
+    margin-left: 15px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 footer .line {
-    width: 80%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 5%;
 
     border-bottom: 2px solid #fff;
     display: block;

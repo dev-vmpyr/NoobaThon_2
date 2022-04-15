@@ -1,0 +1,93 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Patua One', serif, sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: #DFDFDE;
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 9rem;
+    padding: 1rem;
+    background-color: #006778;
+
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    height: 7rem;
+    width: auto;
+}
+
+.line {
+    width: 100%;
+
+    border-bottom: 2px solid #fff;
+    display: block;
+}
+
+.nav-area {
+    background: #006778;
+}
+
+.nav-area::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.nav-area ul {
+    margin: 0;
+    list-style: none;
+}
+
+.nav-area > ul > li {
+    float: left;
+    position: relative;
+}
+
+.nav-area ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+}
+
+.nav-area ul li:hover {
+    background: #488c97;
+}
+
+.nav-area ul ul {
+    position: absolute;
+    padding: 0;
+    min-width: 160px;
+    display: none;
+    top: 100%;
+    left: 0;
+}
+
+.nav-area ul li:hover > ul {
+    display: block;
+}
+
+.nav-area ul ul li:hover a{
+    background: #006778;
+}
+
+.nav-area ul ul li {
+    position: relative;
+}

@@ -1,0 +1,625 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Patua One', serif, sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: #DFDFDE;
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 9rem;
+    padding: 1rem;
+    background-color: #006778;
+
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    height: 7rem;
+    width: auto;
+}
+
+.line {
+    width: 100%;
+
+    border-bottom: 2px solid #fff;
+    display: block;
+}
+
+.nav-area {
+    background: #006778;
+}
+
+.nav-area::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.nav-area ul {
+    margin: 0;
+    list-style: none;
+}
+
+.nav-area > ul > li {
+    float: left;
+    position: relative;
+}
+
+.nav-area ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+}
+
+.nav-area ul li:hover {
+    background: #488c97;
+}
+
+.nav-area ul ul {
+    position: absolute;
+    padding: 0;
+    min-width: 160px;
+    display: none;
+    top: 100%;
+    left: 0;
+}
+
+.nav-area ul li:hover > ul {
+    display: block;
+}
+
+.nav-area ul ul li:hover a{
+    background: #006778;
+}
+
+.nav-area ul ul li {
+    position: relative;
+}
+
+.departments{
+    background-color: rgb(221, 236, 236);
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.departments h2{
+    padding: 10px;
+}
+
+.departments .biotechnology {
+    background-color: #fbae82;
+
+    height: 500px;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.departments .chemical {
+    background-color: #82b8fb;
+
+    height: 500px;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.departments .chemistry {
+    background-color: #fb9082;
+
+    height: 500px;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.departments .civil {
+    background-color: #fbae82;
+
+    height: 500px;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.departments .computer-science {
+    background-color: #82b8fb;
+
+    height: 500px;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.departments .electrical {
+    background-color: #fb9082;
+
+    height: 500px;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.departments .electronics {
+    background-color: #fbae82;
+
+    height: 500px;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.departments .humanities {
+    background-color: #82b8fb;
+
+    height: 500px;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.departments .mathematics {
+    background-color: #fb9082;
+
+    height: 500px;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.departments .mechanical {
+    background-color: #fbae82;
+
+    height: 500px;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.departments .metallurgy {
+    background-color: #82b8fb;
+
+    height: 500px;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.departments .physical-education {
+    background-color: #fb9082;
+
+    height: 500px;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.departments .physics {
+    background-color: #fbae82;
+
+    height: 500px;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.departments .school {
+    background-color: #82b8fb;
+
+    height: 500px;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.departments .biotechnology-container {
+    height: 90%;
+    width: 90%;
+
+    background-color: #fbe2d4;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.departments .chemical-container {
+    height: 90%;
+    width: 90%;
+
+    background-color: #cadff9;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.departments .chemistry-container {
+    height: 90%;
+    width: 90%;
+
+    background-color: #f8ccc6;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.departments .civil-container {
+    height: 90%;
+    width: 90%;
+
+    background-color: #fbe2d4;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.departments .computer-science-container {
+    height: 90%;
+    width: 90%;
+
+    background-color: #cadff9;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.departments .electrical-container {
+    height: 90%;
+    width: 90%;
+
+    background-color: #f8ccc6;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.departments .electronics-container {
+    height: 90%;
+    width: 90%;
+
+    background-color: #fbe2d4;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.departments .humanities-container {
+    height: 90%;
+    width: 90%;
+
+    background-color: #cadff9;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.departments .mathematics-container {
+    height: 90%;
+    width: 90%;
+
+    background-color: #f8ccc6;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.departments .mechanical-container {
+    height: 90%;
+    width: 90%;
+
+    background-color: #fbe2d4;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.departments .metallurgy-container {
+    height: 90%;
+    width: 90%;
+
+    background-color: #cadff9;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.departments .physical-education-container {
+    height: 90%;
+    width: 90%;
+
+    background-color: #f8ccc6;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.departments .physics-container {
+    height: 90%;
+    width: 90%;
+
+    background-color: #fbe2d4;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.departments .school-container {
+    height: 90%;
+    width: 90%;
+
+    background-color: #cadff9;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.departments .biotechnology-container,
+.departments .chemical-container,
+.departments .chemistry-container,
+.departments .civil-container,
+.departments .computer-science-container,
+.departments .electrical-container,
+.departments .electronics-container,
+.departments .humanities-container,
+.departments .mathematics-container,
+.departments .metallurgical-container,
+.departments .physical-education-container,
+.departments .physics-container,
+.departments .school-container,
+.departments .mechanical-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-container {
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-container h1 {
+    font-size: 3rem;
+    padding: 20px;
+}
+
+.text-container p {
+    font-size: 1.5rem;
+}
+
+.img-container {
+    height: 100%;
+    width: 50%;
+
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+}
+
+.img-container img {
+    height: 100%;
+    width: 100%;
+
+    border-radius: 20px;
+}
+
+footer {
+    height: 30rem;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #006778;
+
+    align-items: center;
+}
+
+footer .upper-footer {
+    height: 20rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-col-1,
+.foot-col-2 {
+    height: 80%;
+    padding: 2px;
+
+    border-right: 2px solid #fff;
+    display: block;
+}
+
+footer .upper-footer .foot-col-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer .upper-footer .foot-col-1 img {
+    height: auto;
+    width: auto;
+    margin-right: 15px;
+}
+
+footer .upper-footer .foot-col-1 p{
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+footer .upper-footer .foot-col-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+footer .upper-footer .foot-col-2-1,
+footer .upper-footer .foot-col-2-2,
+footer .upper-footer .foot-col-2-3{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+footer .upper-footer .foot-col-2-1 a,
+footer .upper-footer .foot-col-2-2 a,
+footer .upper-footer .foot-col-2-3 a{
+    font-size: 1rem;
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer .upper-footer .foot-col-3{
+    margin-left: 15px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+footer .line {
+    width: 90%;
+    margin-left: 5%;
+
+    border-bottom: 2px solid #fff;
+    display: block;
+}
+
+footer .lower-footer {
+    height: 10rem;
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .lower-footer .copyright-text,
+footer .lower-footer .location {
+    height: inherit;
+    vertical-align: inherit;
+}
+
+footer .lower-footer .copyright-text {
+    cursor: pointer;
+}
+
+footer .lower-footer .copyright-text p:hover {
+    color: #071e41;
+}
+
+footer .lower-footer .location a {
+    color: #fff;
+}
+
+footer .lower-footer .location a:hover {
+    color: #071e41;
+}
+
+footer .lower-footer .copyright-text {
+    padding-top: 4rem;
+}
+
+footer .lower-footer .copyright-text {
+    margin-left: 2rem;
+}
+
+footer .lower-footer .location {
+    margin-right: 2rem;
+    padding-top: 4rem;
+
+    display: flex;
+    flex-direction: column;
+}

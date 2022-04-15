@@ -92,6 +92,135 @@ header img {
     position: relative;
 }
 
+.faculty{
+    background-color: rgb(221, 236, 236);
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.faculty h2{
+    padding: 10px;
+}
+
+.faculty .type-1 {
+    background-color: #fbae82;
+
+    height: 500px;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faculty .type-2 {
+    background-color: #82b8fb;
+
+    height: 500px;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faculty .type-3 {
+    background-color: #fb9082;
+
+    height: 500px;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faculty .type-1-container {
+    height: 90%;
+    width: 90%;
+
+    background-color: #fbe2d4;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.faculty .type-2-container {
+    height: 90%;
+    width: 90%;
+
+    background-color: #cadff9;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.faculty .type-3-container {
+    height: 90%;
+    width: 90%;
+
+    background-color: #f8ccc6;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.faculty .type-1-container,
+.faculty .type-2-container,
+.faculty .type-3-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-container {
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-container h1 {
+    font-size: 3rem;
+    padding: 20px;
+}
+
+.text-container p {
+    font-size: 1.5rem;
+}
+
+.img-container {
+    height: 100%;
+    width: 50%;
+
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+}
+
+.img-container img {
+    height: 100%;
+    width: 100%;
+
+    border-radius: 20px;
+}
+
+
 
 
 

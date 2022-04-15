@@ -92,7 +92,47 @@ header img {
     position: relative;
 }
 
+.workshops{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.workshops .workshop-1,
+.workshops .workshop-2,
+.workshops .workshop-3,
+.workshops .workshop-4,
+.workshops .workshop-5,
+.workshops .workshop-6,
+.workshops .workshop-7,
+.workshops .workshop-8,
+.workshops .workshop-9,
+.workshops .workshop-10{
+    background-color: #f6f6dd;
+
+    height: auto;
+    width: 80%;
+
+    padding: 20px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    border-radius: 20px;
+}
+
+.workshops .workshop-1 a,
+.workshops .workshop-2 a,
+.workshops .workshop-3 a,
+.workshops .workshop-4 a,
+.workshops .workshop-5 a,
+.workshops .workshop-6 a,
+.workshops .workshop-7 a,
+.workshops .workshop-8 a,
+.workshops .workshop-9 a,
+.workshops .workshop-10 a{
+    text-decoration: none;
+    color: #5d769c;
+}
 
 
 

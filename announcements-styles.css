@@ -92,7 +92,47 @@ header img {
     position: relative;
 }
 
+.announcements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.announcements .announcement-1,
+.announcements .announcement-2,
+.announcements .announcement-3,
+.announcements .announcement-4,
+.announcements .announcement-5,
+.announcements .announcement-6,
+.announcements .announcement-7,
+.announcements .announcement-8,
+.announcements .announcement-9,
+.announcements .announcement-10{
+    background-color: #f6f6dd;
+
+    height: auto;
+    width: 80%;
+
+    padding: 20px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    border-radius: 20px;
+}
+
+.announcements .announcement-1 a,
+.announcements .announcement-2 a,
+.announcements .announcement-3 a,
+.announcements .announcement-4 a,
+.announcements .announcement-5 a,
+.announcements .announcement-6 a,
+.announcements .announcement-7 a,
+.announcements .announcement-8 a,
+.announcements .announcement-9 a,
+.announcements .announcement-10 a{
+    text-decoration: none;
+    color: #5d769c;
+}
 
 
 
